@@ -23,7 +23,7 @@ To build the bot:
 g++ -std=gnu++17 -O2 -Wall src/main.cpp -o bot
 ```
 
-To actually run a match you need the caia harness (driver + manager + referee). Download and setup instructions are linked [here](https://archive.codecup.nl/2023/41/download_caia.html).
+To actually run a match you need the **caia**. Download and setup instructions are linked [here](https://archive.codecup.nl/2023/41/download_caia.html).
 
 Once caia is set up, drop the built binary into the `bin/` directory and reference it from your `manager.txt`.
 
