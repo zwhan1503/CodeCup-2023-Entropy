@@ -67,3 +67,28 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Bot binaries (regenerable via build)
+bot
+bot_v*
+oldsubmit
+myplayer
+
+# Caia installer / local install (not part of source)
+caia_install_*/
+*.tar.gz
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.swo
+
+# Claude local
+.claude/
